@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="OCR, reconhecimento de caracteres, conversão de imagem em texto, OCR online, converter PDF em texto, digitalização de documentos, reconhecimento óptico de caracteres">
+  <meta name="description" content="Extraia texto de imagens com facilidade usando nosso serviço de OCR. Faça upload de uma imagem e obtenha o texto extraído em segundos. Ideal para digitalização de documentos e reconhecimento óptico de caracteres.">
+  <title>Odin's Raven</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="./favicon_io/site.webmanifest">
+</head>
+<body>
+  <main class="container">
+    <img id="centralImage" src="ravens.svg" alt="Logo do Site Odin's Raven" />
+    <h1>Odin's Raven</h1>
+    <p>Selecione uma imagem com texto para extrair o conteúdo.</p>
+
+    <input type="file" id="imageInput" accept="image/*" />
+    <img id="preview" alt="Pré-visualização da imagem" />
+
+    <div id="output" class="output-box">O texto extraído aparecerá aqui.</div>
+  </main>
+  
+  
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Odin's Raven",
+      "description": "Extraia texto de imagens com facilidade usando nosso serviço de OCR. Faça upload de uma imagem e obtenha o texto extraído em segundos.",
+      "keywords": "OCR, reconhecimento de caracteres, conversão de imagem em texto, OCR online"
+      "url": "https://www.odinsraven.com/ocr",
+      "image": {
+        "@type": "ImageObject",
+        "url": "./favicon_io/android-chrome-192x192.png",
+        "width": 192,
+        "height": 192
+      }
+    }    
+  </script>
+  <script type="module" src="./script.js"> </script>
+</body>
+</html>
