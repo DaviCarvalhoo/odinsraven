@@ -7,6 +7,9 @@
   --border-color: #333;
   --shadow-color: rgba(0, 0, 0, 0.6);
   --border-radius: 10px;
+  --border-color: #666;
+  --font-color: #f1f5f9;
+  --success-color: #4dff91;
 }
 
 * {
@@ -96,4 +99,22 @@ input[type="file"] {
   #preview {
     max-height: 250px;
   }
+}
+
+#copyButton {
+  margin-top: 20px;
+  background-color: transparent;
+  border: solid var(--border-color);
+  border-width: 2px;
+  border-radius: .5rem;
+  color: var(--text-color);
+  cursor: pointer;
+  height: 3rem;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.success {
+  border-color: var(--success-color) !important;
+  color: var(--success-color) !important;
 }
