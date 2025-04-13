@@ -1,4 +1,4 @@
-import { recognize } from 'https://cdn.jsdelivr.net/npm/tesseract.js@4.0.2/+esm';
+import { recognize } from 'https://cdn.jsdelivr.net/npm/tesseract.js@6.0.1/+esm';
 
 const imageInput = document.getElementById("imageInput");
 const previewImage = document.getElementById("preview");
